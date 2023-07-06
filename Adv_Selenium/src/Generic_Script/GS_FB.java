@@ -11,6 +11,7 @@ public class GS_FB
 {
 	public WebDriver driver;
 	@BeforeMethod
+	//To Open Application
 	public void OpenAppln()
 	{
 		System.setProperty("webdriver.chrome.driver",
@@ -21,6 +22,7 @@ public class GS_FB
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
 	@AfterMethod
+	//To Close Application
 	public void CloseAppln()
 	{
 		driver.close();

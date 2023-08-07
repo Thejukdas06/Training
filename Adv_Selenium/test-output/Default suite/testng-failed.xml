@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Listeners.Listener_Runner">
+      <class name="TestNG_Basics.LearningAssertion">
         <methods>
-          <include name="test2"/>
-          <include name="test1"/>
+          <include name="testCase"/>
+          <include name="setupBrowser"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Listeners.Listener_Runner -->
+      </class> <!-- TestNG_Basics.LearningAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
